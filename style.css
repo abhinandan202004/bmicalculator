@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+img{
+   width: 35pt;
+   height: 35pt;
+   align-items: center;
+}
+.container > *{
+   display: inline-flex ;
+   flex-direction: row;
+}
