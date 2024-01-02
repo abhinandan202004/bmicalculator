@@ -4,7 +4,8 @@ img{
    height: 35pt;
    align-items: center;
 }
-.container > *{
-   display: inline-flex ;
+.container {
+   display: inline-flex;
    flex-direction: row;
+   row-gap: 2rem;
 }
