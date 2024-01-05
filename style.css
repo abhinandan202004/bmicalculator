@@ -9,3 +9,18 @@ img{
    flex-direction: row;
    row-gap: 2rem;
 }
+
+.container-fluid{
+   padding: 2vh;
+}
+#middle{
+   padding: 10vh;
+}
+#title{
+   text-align: center;
+   justify-content: center;
+
+}
+.form-floating{
+   vertical-align: bottom;
+}

@@ -3,6 +3,7 @@ let h = document.getElementById("height").valueAsNumber
 let bmi1 = bmi(w,h);
 const button = document.getElementById("bt1")
 button.addEventListener('click', () => {
+    
     document.write(`Your BMI is ${bmi1}`,);
 
 });
