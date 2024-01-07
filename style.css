@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Tektur&display=swap');
 img{
    width: 35pt;
    height: 35pt;
@@ -14,13 +16,17 @@ img{
    padding: 2vh;
 }
 #middle{
+   background: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0,0,0,0.1) );
+   backdrop-filter: blur(10px);
    padding: 10vh;
    display: inline-flex;
    flex-direction: column;
    align-items: center;
-   margin: 0 0 0 30vw;
+   margin: 0 0 0 15vw;
 }
 #title{
+   font-family: 'Tektur', sans-serif;
+   font-size: 4vw;
    text-align: center;
    justify-content: center;
    padding: 1vw;
@@ -31,12 +37,19 @@ img{
 }
 #weight{
    margin: 1.5vh;
-   padding: 1vh
-   
-   
+   padding: 1vh;
+   font-family: 'Rajdhani', sans-serif;
+   font-family: 'Tektur', sans-serif;   
 }
 #height{
    padding: 1vh;
    margin: 2vh;
-
+   font-family: 'Rajdhani', sans-serif;
+   font-family: 'Tektur', sans-serif;
+}
+#output{
+   margin: 1vw;
+}
+#intro{
+   font-size: 100%;
 }

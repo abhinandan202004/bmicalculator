@@ -4,7 +4,7 @@ button.addEventListener('click', () => {
     let h = document.getElementById("height").valueAsNumber;
     let bmi1 = bmi(w,h);
     bmi1 = Math.round(bmi1*10) / 10;
-    document.write(`Your BMI is ${bmi1}`,);
+    document.getElementById("output").innerHTML = "Your BMI is " + bmi1 ;
 
 });
 

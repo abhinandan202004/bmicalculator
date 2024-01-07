@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <!-- bootstrap cdn above -->
     <title>Document</title>
 </head>
@@ -20,11 +20,13 @@
     </nav>  
         <div id="middle">
             <h2 id="title"> Calculate your BMI for Free !!</h2>
-            <label for = "weight" > Enter your Weight </label>
-            <input type="number" id="weight" name="weight" min="0" max="250">
-            <label for = "height" > Enter your height </label>
-            <input type="number" id="height" name="height" min="0" max="3" step="0.01">
-            <button type="button" class="btn btn-outline-dark" id="bt1">submit</button>
+            <p id="intro">Body mass index, or BMI, is used to determine whether you are in a healthy weight range for your height.</p>
+            <label for = "weight" > Enter your Weight (in kg)</label>
+            <input type="number" id="weight" name="weight" min="0" max="250" placeholder="what's your weight?">
+            <label for = "height" > Enter your height (in m)</label>
+            <input type="number" id="height" name="height" min="0" max="3" step="0.01" placeholder="what's your Height?">
+            <button type="button" class="btn btn-outline-dark" id="bt1">Calculate</button>
+            <p id="output"></p>
             
         </div>
 
@@ -36,7 +38,7 @@
         <label for="floatingTextarea2">Comments</label>
       </div>
     </footer>
-    <script src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
