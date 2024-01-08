@@ -10,25 +10,25 @@ button.addEventListener('click', () => {
 
 });
 
- 
+//formula to find BMI 
 function bmi(weight,height){
     var bmi1 = weight/height**2;
     return bmi1;
 
 }
-function result(bmi1) {
+function result(bmi1) { // nested if statement 
     let condition;
     if (bmi1 < 18.5)
     {
         condition = "underweight"
     }
-    else if (bmi1 >= 18.5 || bmi1 < 25){
+    else if (bmi1 >= 18.5 && bmi1 < 25){
         condition = "Normal"
     }
-    else if (bmi1 >= 25 || bmi1 < 30 ){
+    else if (bmi1 >= 25 && bmi1 < 30 ){
         condition = "overweight"
     }
-    else if (bmi1 >= 30 || bmi1 < 35){
+    else if (bmi1 >= 30 && bmi1 < 35){
         condition = "degree 1 obesity "
     }
     else if (bmi1 > 35){

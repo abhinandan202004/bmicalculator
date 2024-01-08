@@ -24,6 +24,9 @@ img{
    align-items: center;
    margin: 0 0 0 15vw;
 }
+#container{
+
+}
 #title{
    font-family: 'Tektur', sans-serif;
    font-size: 4vw;
@@ -52,4 +55,7 @@ img{
 }
 #intro{
    font-size: 100%;
+}
+.navbar bg-dark border-bottom border-body{
+   background-color: rgb(136, 171, 142);
 }
