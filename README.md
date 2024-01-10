@@ -34,3 +34,33 @@ The BMI Calculator Website is a web application that allows users to calculate t
 
    ```bash
    git clone https://github.com/abhinandan202004/bmicalculator.git
+# BMI Calculator Website
+
+A simple Body Mass Index (BMI) calculator website to help users monitor their body weight status.
+
+## Usage
+
+1. Open the BMI Calculator website.
+2. Enter your height and weight in the provided input fields.
+3. Click the "Calculate BMI" button.
+4. View your BMI and its interpretation.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Contributing
+
+If you'd like to contribute to the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`.
+3. Make changes and commit them: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
