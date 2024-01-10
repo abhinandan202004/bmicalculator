@@ -14,9 +14,13 @@ img{
 
 .container-fluid{
    padding: 2vh;
+   background: linear-gradient(to right,rgb(134, 212, 246),rgb(69,214,202) ,rgb(233, 248, 249) );
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-justify: center;
 }
 #middle{
-   background: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0,0,0,0.1) );
+   background: linear-gradient( rgba(255, 250, 250, 0.2),rgba(79, 79, 79, 0.1) );
    backdrop-filter: blur(10px);
    padding: 10vh;
    display: inline-flex;
@@ -25,8 +29,18 @@ img{
    margin: 0 0 0 15vw;
 }
 #container{
+   height: 40vw;
+   width: 100vw;
+}
+#container > img{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   z-index: -1;
 
 }
+
 #title{
    font-family: 'Tektur', sans-serif;
    font-size: 4vw;
@@ -56,6 +70,7 @@ img{
 #intro{
    font-size: 100%;
 }
-.navbar bg-dark border-bottom border-body{
-   background-color: rgb(136, 171, 142);
+
+#middle {
+   color: rgb(192, 238, 242) ;
 }
