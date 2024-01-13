@@ -11,7 +11,16 @@ img{
    flex-direction: row;
    row-gap: 2rem;
 }
+nav{
+   font-family:  Helvetica ;
+   font-size: medium;
+   
 
+}
+.d-inline-block align-text-top{
+   justify-content: center;
+
+}
 .container-fluid{
    padding: 2vh;
    background: linear-gradient(to right,rgb(134, 212, 246),rgb(69,214,202) ,rgb(233, 248, 249) );
@@ -20,13 +29,13 @@ img{
    text-justify: center;
 }
 #middle{
-   background: linear-gradient( rgba(255, 250, 250, 0.2),rgba(79, 79, 79, 0.1) );
-   backdrop-filter: blur(10px);
+   background: linear-gradient(to right ,rgba(255, 250, 250, 0.2),rgba(79, 79, 79, 0.1) );
+   backdrop-filter: blur(5px);
    padding: 10vh;
    display: inline-flex;
    flex-direction: column;
    align-items: center;
-   margin: 0 0 0 15vw;
+  
 }
 #container{
    height: 40vw;
@@ -57,14 +66,14 @@ img{
    padding: 1vh;
    font-family: 'Rajdhani', sans-serif;
    font-family: 'Tektur', sans-serif;  
-   width: 27%; 
+   width: 20%; 
 }
 #height{
    padding: 1vh;
    margin: 2vh;
    font-family: 'Rajdhani', sans-serif;
    font-family: 'Tektur', sans-serif;
-   width: 27%;
+   width: 20%;
 }
 #output{
    margin: 1vw;
@@ -80,4 +89,23 @@ img{
    position: fixed;
    bottom: 0;
    width: 100%;
+}
+#middle{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.form-floating{
+   backdrop-filter: blur(10px);
+   background-color: rgba(41, 39, 39,0.1);
+}
+#result{
+   border: 1px solid rgb(192, 238, 242);
+   padding: 10px;
+   border-radius: 5px;
+   font-style:italic;
+}
+@media screen {
+   
 }
