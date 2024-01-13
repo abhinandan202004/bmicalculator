@@ -106,6 +106,25 @@ nav{
    border-radius: 5px;
    font-style:italic;
 }
-@media screen {
-   
+@media screen and (max-width:481px){
+   #title{
+         font-size: 7vw;
+         padding: 1px;
+   }
+   #intro{
+      font-size: 3vw;
+   }
+   #output{
+      margin: 15px;
+   }
+   #weight{
+      width: 70%;
+   }
+   #height{
+      width: 70%;
+   }
+   label{
+      font-size: larger;
+   }
+
 }
