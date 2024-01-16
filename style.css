@@ -104,12 +104,13 @@ nav{
    border: 1px solid rgb(192, 238, 242);
    padding: 10px;
    border-radius: 5px;
-   font-style:italic;
+   font-style: bold;
 }
 @media screen and (max-width:481px){
    #title{
-         font-size: 7vw;
+         font-size: 8vw;
          padding: 1px;
+         margin-bottom: 6vw;
    }
    #intro{
       font-size: 3vw;
@@ -126,5 +127,6 @@ nav{
    label{
       font-size: larger;
    }
+
 
 }

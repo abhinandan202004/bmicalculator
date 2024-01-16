@@ -18,6 +18,7 @@ function bmi(weight,height){
 }
 function result(bmi1) { // nested if statement 
     let condition;
+    
     if (bmi1 < 18.5)
     {
         condition = "underweight"
@@ -34,6 +35,7 @@ function result(bmi1) { // nested if statement
     else if (bmi1 > 35){
         condition = "degree 2 obesity"
     }
+    condition = condition.toUpperCase();
     return condition;
 }
  
